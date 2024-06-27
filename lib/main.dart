@@ -20,6 +20,18 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
+        scaffoldBackgroundColor: Colors.black,
+        appBarTheme: const AppBarTheme(
+            color: Colors.black,
+            iconTheme: IconThemeData(color: Colors.deepPurple)),
+        listTileTheme: const ListTileThemeData(
+          titleTextStyle: TextStyle(color: Colors.deepPurple),
+        ),
+        textTheme: const TextTheme(
+          bodySmall: TextStyle(color: Colors.deepPurple),
+          bodyLarge: TextStyle(color: Colors.deepPurple),
+          bodyMedium: TextStyle(color: Colors.deepPurple),
+        ),
       ),
       home: const SwapiScreen(),
     );

@@ -1,16 +1,14 @@
 # swapi
 
-A new Flutter project.
+Flutter app that holds Star Wars Trivia
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Run the following commands:
 
-A few resources to get you started if this is your first Flutter project:
+- flutter clean
+- flutter pub get
+- flutter run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Make sure your flutter doctor doesn't have any issues and that you are using the latest version of flutter.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

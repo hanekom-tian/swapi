@@ -13,7 +13,8 @@ class SwapiScreen extends ConsumerWidget {
         ref.watch(swapiSearchViewModelProvider.notifier);
     final swapiSearchState = ref.watch(swapiSearchViewModelProvider);
     final size = MediaQuery.of(context).size;
-    return SizedBox(
+    return Container(
+      color: Colors.black,
       width: size.width,
       height: size.height,
       child: swapiSearchState.selectedCategory == SwapiCategory.none
